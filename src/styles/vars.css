@@ -6,3 +6,31 @@
     --bg-icon: #131313;
     --bg-arrow-color: rgba( 0,0,0, 0.7 );
 }
+
+.playlist-container {
+    height: 68vh;
+    display: flex;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+#result-playlists .playlist {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+}
+
+.playlist #greeting {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    color: #ffffff;
+}
+
+.playlist .greeting-subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
